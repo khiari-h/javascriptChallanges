@@ -85,7 +85,7 @@
     </div>
 
     <script>
-    const result = document.getElementById('
+    const result = document.getElementById('result');
     </script>
   </body>
 </html>
