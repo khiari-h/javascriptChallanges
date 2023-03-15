@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculatrice</title>
+    <style>
+      /* Styles pour la calculatrice */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #eee;
+      }
+
+      .calculator {
+        width: 250px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        margin: 20px auto;
+        padding: 10px;
+      }
+
+      .calculator input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      .calculator input[type="button"] {
+        width: 50%;
+        padding: 5px;
+        font-size: 16px;
+        margin-bottom: 5px;
+        border: none;
+        background-color: #f1f1f1;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      .calculator input[type="button"]:hover {
+        background-color: #ddd;
+      }
+
+      .calculator input[type="button"].operator {
+        background-color: #4CAF50;
+        color: #fff;
+      }
+
+      .calculator input[type="button"].operator:hover {
+        background-color: #3e8e41;
+      }
+
+      .calculator input[type="button"].clear {
+        background-color: #f44336;
+        color: #fff;
+      }
+
+      .calculator input[type="button"].clear:hover {
+        background-color: #cc0000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="result" readonly>
+      <input type="button" value="1" onclick="addToResult('1')">
+      <input type="button" value="2" onclick="addToResult('2')">
+      <input type="button" value="3" onclick="addToResult('3')">
+      <input type="button" value="+" class="operator" onclick="addOperator('+')">
+      <br>
+      <input type="button" value="4" onclick="addToResult('4')">
+      <input type="button" value="5" onclick="addToResult('5')">
+      <input type="button" value="6" onclick="addToResult('6')">
+      <input type="button" value="-" class="operator" onclick="addOperator('-')">
+      <br>
+      <input type="button" value="7" onclick="addToResult('7')">
+      <input type="button" value="8" onclick="addToResult('8')">
+      <input type="button" value="9" onclick="addToResult('9')">
+      <input type="button" value="*" class="operator" onclick="addOperator('*')">
+      <br>
+      <input type="button" value="C" class="clear" onclick="clearResult()">
+      <input type="button" value="0" onclick="addToResult('0')">
+      <input type="button" value="=" class="operator" onclick="calculateResult()">
+      <input type="button" value="/" class="operator" onclick="addOperator('/')">
+    </div>
+
+    <script>
+    const result = document.getElementById('
+    </script>
+  </body>
+</html>
 
